@@ -1,11 +1,11 @@
 
 print (" ---------------------------------------------- ")
 print ("|                                              |")
-print ("|    Hello World                               |")
+print ("|    02GoodbyeWorld                            |")
 print ("|    Name : Grace Thomas                       |")
 print ("|    Version : 01                              |")
 print ("|                                              |")
 print (" ---------------------------------------------- ")
 print ("Hello World")
-input ("Program paused - press enter to continue...")
+input ("------> Program paused - press enter to continue...")
 print("Goodbye World")
