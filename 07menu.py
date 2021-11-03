@@ -103,7 +103,7 @@ def encodestring():
         print ("                       ")  
         print ("                       ")
 
-def encodestring():
+def end():
         print ("                       ")
         print ("----Start of Output ---------------------------")
         print ("                       ")
@@ -258,8 +258,12 @@ if value == "9":
         input("Press Enter to continue")
         clear()
 if value == "x": 
-        encodestring()
+        end()
         input("Press Enter to continue")
+
+if value != ("1") and ("2")and ("3")and ("4")and ("5")and ("6")and ("7")and ("8")and ("9")and ("x"):
+        encodestring()
+
 
 
 
