@@ -7,7 +7,6 @@ def helloworld():
         print ("----End of Output -----------------------------")
         print ("                       ")  
         print ("                       ")
-        input ("Press Enter to continue")
         
 
 def goodbyeworld():
@@ -74,37 +73,120 @@ def whileloop():
         print ("                       ")
         input ("Press Enter to continue")
 
+def stringloop():
+        print ("                       ")
+        print ("----Start of Output ---------------------------")
+        print ("                       ")
+        print ("invalid option")
+        print ("                       ")
+        print ("----End of Output -----------------------------")
+        print ("                       ")  
+        print ("                       ")
+
+def convertascii():
+        print ("                       ")
+        print ("----Start of Output ---------------------------")
+        print ("                       ")
+        print ("invalid option")
+        print ("                       ")
+        print ("----End of Output -----------------------------")
+        print ("                       ")  
+        print ("                       ")
+
+def encodestring():
+        print ("                       ")
+        print ("----Start of Output ---------------------------")
+        print ("                       ")
+        print ("invalid option")
+        print ("                       ")
+        print ("----End of Output -----------------------------")
+        print ("                       ")  
+        print ("                       ")
+
+def encodestring():
+        print ("                       ")
+        print ("----Start of Output ---------------------------")
+        print ("                       ")
+        print ("                       ")
+        print ("----End of Output -----------------------------")
+        print ("                       ")  
+        print ("                       ")
+
 import os
 
 def clear():
         os.system("cls")
-        value = input("Enter option ")
+
+        print (" ---------------------------------------------- ")
+        print ("|                                              |")
+        print ("|    07menu                                    |")
+        print ("|    Name : Grace Thomas                       |")
+        print ("|    Version : 01                              |")
+        print ("|                                              |")
+        print (" ---------------------------------------------- ")
+
+        print ("1. Hello World")
+        print ("2. Goodbye World")
+        print ("3. Goodbye Person")
+        print ("4. Good Teacher")
+        print ("5. forLoop")
+        print ("6. whileLoop")
+        print ("7. string Loop")
+        print ("8. Convert to ascii")
+        print ("9. Encode a string")
+        print ("x. To Exit")
+
+        value = input("Enter an option ")
 
         if value == "1": 
                 helloworld()
+                input("Press Enter to continue")
                 clear()
 
         if value == "2": 
                 goodbyeworld()
-                
+                input("Press Enter to continue")
                 clear()
 
         if value == "3":
                 goodbyeperson()
+                input("Press Enter to continue")
                 clear()
 
 
         if value == "4":
                 goodteacher()
+                input("Press Enter to continue")
                 clear()
 
         if value == "5": 
                 forloop()
+                input("Press Enter to continue")
                 clear()
 
         if value == "6": 
                 whileloop()
+                input("Press Enter to continue")
                 clear()
+
+        if value == "7": 
+                stringloop()
+                input("Press Enter to continue")
+                clear()
+
+        if value == "8": 
+                convertascii()
+                input("Press Enter to continue")
+                clear()
+
+        if value == "9": 
+                encodestring()
+                input("Press Enter to continue")
+                clear()
+        if value == "x": 
+                encodestring()
+                input("Press Enter to continue")
+
         
         
 
@@ -128,58 +210,56 @@ print ("8. Convert to ascii")
 print ("9. Encode a string")
 print ("x. To Exit")
 
-value = input("enter option ")
+value = input("Enter an option ")
 if value == "1": 
         helloworld()
         clear()
 
 if value == "2": 
         goodbyeworld()
-        os.system("cls")
-        value = input("Enter an Option ")
-        if value == "1": 
-                helloworld()
-                clear()
-
-        if value == "2": 
-                goodbyeworld()
-                clear()
-
-        if value == "3":
-                goodbyeperson()
-                clear()
-
-
-        if value == "4":
-                goodteacher()
-                clear()
-
-        if value == "5": 
-                forloop()
-                clear()
-
-        if value == "6": 
-                whileloop()
-                clear()
+        input("Press Enter to continue")
+        clear()
         
         
 
 if value == "3":
         goodbyeperson()
+        input("Press Enter to continue")
         clear()
 
 
 if value == "4":
         goodteacher()
+        input("Press Enter to continue")
         clear()
 
 if value == "5": 
         forloop()
+        input("Press Enter to continue")
         clear()
 
 if value == "6": 
         whileloop()
+        input("Press Enter to continue")
         clear()
+
+if value == "7": 
+        stringloop()
+        input("Press Enter to continue")
+        clear()
+
+if value == "8": 
+        convertascii()
+        input("Press Enter to continue")
+        clear()
+
+if value == "9": 
+        encodestring()
+        input("Press Enter to continue")
+        clear()
+if value == "x": 
+        encodestring()
+        input("Press Enter to continue")
 
 
 
