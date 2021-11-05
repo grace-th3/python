@@ -7,7 +7,7 @@ def helloworld():
         print ("----End of Output -----------------------------")
         print ("                       ")  
         print ("                       ")
-        
+        input ("Press Enter to continue")
 
 def goodbyeworld():
         print ("                       ")
@@ -20,6 +20,7 @@ def goodbyeworld():
         print ("----End of Output -----------------------------")
         print ("                       ")  
         print ("                       ")
+        input ("Press Enter to continue")
 def goodbyeperson():
         print ("                       ")
         print ("----Start of Output ---------------------------")
@@ -31,6 +32,7 @@ def goodbyeperson():
         print ("----End of Output -----------------------------")
         print ("                       ")  
         print ("                       ")
+        input ("Press Enter to continue")
 def goodteacher():
         print ("                       ")
         print ("----Start of Output ---------------------------")
@@ -44,6 +46,7 @@ def goodteacher():
         print ("----End of Output -----------------------------")
         print ("                       ")  
         print ("                       ")
+        input ("Press Enter to continue")
 def forloop():
         print ("                       ")
         print ("----Start of Output ---------------------------")
@@ -54,6 +57,7 @@ def forloop():
         print ("----End of Output -----------------------------")
         print ("                       ")  
         print ("                       ")
+        input ("Press Enter to continue")
 def whileloop():
         print ("                       ")
         print ("----Start of Output ---------------------------")
@@ -73,6 +77,45 @@ def whileloop():
         print ("                       ")
         input ("Press Enter to continue")
 
+def stringloop():
+        print ("                       ")
+        print ("----Start of Output ---------------------------")
+        print ("                       ")
+        value = input("What is your string? ")
+        for x in value:
+            print (x)
+        print ("                       ")
+        print ("----End of Output -----------------------------")
+        print ("                       ")  
+        print ("                       ")
+        input ("Press Enter to continue") 
+def convertascii():
+        print(" ")
+        print("----Start of Output ---------------------------")
+        print(" ")
+        string = input("What is your string? ")
+        for i in range(len(string)):
+            print("%c = %d" %(string[i], ord(string[i])))
+        print(" ")
+        print("----End of Output -----------------------------")
+        print(" ")
+        print(" ")
+        print(" ")
+        input ("Press Enter to continue") 
+def encodestring():
+        print ("                       ")
+        print ("----Start of Output ---------------------------")
+        value = input("What is your string? ")
+        message = ""
+        for element in value:
+              x = chr(ord(element)+1)
+              print(element,"=",x)
+              message += x
+              print(message)
+        print ("----End of Output -----------------------------")
+        print ("                       ")  
+        print ("                       ")
+        input ("Press Enter to continue") 
 def invalid():
         print ("                       ")
         print ("----Start of Output ---------------------------")
@@ -82,6 +125,7 @@ def invalid():
         print ("----End of Output -----------------------------")
         print ("                       ")  
         print ("                       ")
+        input ("Press Enter to continue") 
 
 
 def end():
@@ -92,6 +136,7 @@ def end():
         print ("----End of Output -----------------------------")
         print ("                       ")  
         print ("                       ")
+        input ("Press Enter to continue")
 
 import os
 
@@ -121,52 +166,42 @@ def clear():
 
         if value == "1": 
                 helloworld()
-                input("Press Enter to continue")
                 clear()
 
         if value == "2": 
                 goodbyeworld()
-                input("Press Enter to continue")
                 clear()
 
         if value == "3":
                 goodbyeperson()
-                input("Press Enter to continue")
                 clear()
 
 
         if value == "4":
                 goodteacher()
-                input("Press Enter to continue")
                 clear()
 
         if value == "5": 
                 forloop()
-                input("Press Enter to continue")
                 clear()
 
         if value == "6": 
                 whileloop()
-                input("Press Enter to continue")
                 clear()
 
         if value == "7": 
                 invalid()
-                input("Press Enter to continue")
                 clear()
 
         if value == "8": 
                 invalid()
-                input("Press Enter to continue")
                 clear()
 
         if value == "9": 
                 invalid()
-                input("Press Enter to continue")
                 clear()
         if value == "x": 
-                encodestring()
-                input("Press Enter to continue")
+                end()
 
         
         
@@ -198,51 +233,40 @@ if value == "1":
 
 if value == "2": 
         goodbyeworld()
-        input("Press Enter to continue")
         clear()
         
         
 
 if value == "3":
         goodbyeperson()
-        input("Press Enter to continue")
         clear()
 
 
 if value == "4":
         goodteacher()
-        input("Press Enter to continue")
         clear()
 
 if value == "5": 
         forloop()
-        input("Press Enter to continue")
         clear()
 
 if value == "6": 
         whileloop()
-        input("Press Enter to continue")
         clear()
 
 if value == "7": 
-        invalid()
-        input("Press Enter to continue")
+        stringloop()
         clear()
 
 if value == "8": 
-        invalid()
-        input("Press Enter to continue")
+        convertascii()
         clear()
 
 if value == "9": 
-        invalid()
-        input("Press Enter to continue")
+        encodestring()
         clear()
 if value == "x": 
         end()
-        input("Press Enter to continue")
 
 if value != ("1") and ("2")and ("3")and ("4")and ("5")and ("6")and ("7")and ("8")and ("9")and ("x"):
         invalid()
-
-
