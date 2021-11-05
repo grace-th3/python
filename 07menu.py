@@ -217,23 +217,11 @@ if value == "6":
         whileloop()
         clear()
 
-if value == "7": 
-        invalid()
-        clear()
-
-if value == "8": 
-        invalid()
-        clear()
-
-if value == "9": 
-        invalid()
-        clear()
-
 if value == "x": 
         end()
         quit()
 
-if value != ("1") and ("2")and ("3")and ("4")and ("5")and ("6")and ("7")and ("8")and ("9")and ("x"):
+if value != ("1") and ("2") and ("3") and ("4") and ("5") and ("6") and ("x"):
         invalid()
-
+        clear()
 

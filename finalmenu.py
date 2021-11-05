@@ -190,16 +190,17 @@ def clear():
                 clear()
 
         if value == "7": 
-                invalid()
+                stringloop()
                 clear()
 
         if value == "8": 
-                invalid()
+                convertascii()
                 clear()
 
         if value == "9": 
-                invalid()
+                encodestring()
                 clear()
+                
         if value == "x": 
                 end()
                 quit()
@@ -272,3 +273,4 @@ if value == "x":
 
 if value != ("1") and ("2")and ("3")and ("4")and ("5")and ("6")and ("7")and ("8")and ("9")and ("x"):
         invalid()
+        clear()
